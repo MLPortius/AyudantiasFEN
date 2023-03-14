@@ -1,0 +1,97 @@
+Trabajo Final Fecha de Entrega Lunes 6 de Marzo hasta las 23.59
+
+Puede ser realizado de manera individual o en parejas
+
+el archivo creditos_bancarios.xlsx se encuentra disponible en la sección Archivos de Canvas
+
+Pregunta 1. Desarrollo
+
+Explique con sus palabras cuáles son las principales diferencias y similitudes entre:
+
+Una base de datos transaccional
+
+Un Data Warehouse
+
+Un Data Lake
+
+Un Lake House
+
+Proponga un ejemplo y caso de uso para cada una de ellas
+
+ 
+
+Pregunta 2. Desarrollo
+
+Explique con sus palabras cuales son los drivers o causas que hacen necesario la utilización de “clústers de computadoras”
+
+Refiérase especialmente al uso de HPC (clústers intensivos en cómputo) vs al uso de clústers para Big Data (tipo Hadoop o Spark)
+
+Proponga un ejemplo o caso de uso para cada uno de ellos.
+
+ 
+
+Pregunta 3. Ejercicio EDA con Spark SQL
+
+Utilizando Apache Spark (en Colab, o DataBricks, o local, …), las librerías de SparkSQL y el dataset SII_roles_avaluo_table.zipLinks to an external site.…
+
+Escriba 3 nuevas consultas (queries) a la data:
+
+Debe usar a lo menos un Left Join
+
+Debe usar a lo menos un GroupBy
+
+Debe usar un a lo menos Where con dos condiciones
+
+Debe ordenar sus resultados de manera descendiente
+
+ 
+
+Pregunta 4. Opción A. Ejercicio Clustering Bancario
+
+Utilizando Apache Spark (en Colab, o DataBricks, o local, …), las librerías de SparkML y el dataset créditos_bancarios.xlsx …
+
+Realice una segmentación (usando K-means) de la cartera de clientes que incluya a lo menos 5 variables de su interés.
+
+En sus resultados comente respecto de:
+
+A) qué tipo de preprocesamientos fue necesario realizarle a los datos, o sino fue necesario, el por qué.
+
+B) Cómo se determinó el número óptimo de clusters a utilizar
+
+C) La estadística descriptiva de los segmentos encontrados y qué nombre “comercial” le pondría al segmento dadas dichas características
+
+D) Acciones de negocios que podrían ser relevantes a sugerir para los segmentos encontrados
+
+ 
+
+Pregunta 4. Opción B. Ejercicio Modelamiento Supervisado clasificación
+
+Utilizando Apache Spark (en Colab, o DataBricks, o local, …), las librerías de SparkML y el dataset créditos_bancarios.xlsx …
+
+Cree un modelo de predicción de la variable “credit_risk”. Pruebe con al menos 3 algoritmos supervisados distintos, por ej, regresión logística, árboles de decisión y random forests:
+
+En sus resultados comente respecto de:
+
+A) qué tipo de preprocesamientos fue necesario realizarle a los datos, especialmente respecto de si fue necesario balancear la data
+
+B) Los resultados de su modelo tanto en muestra de training como de testing.
+
+Cree una tabla donde se puedan comparar las métricas de recall, precisión y accuracy para ambas clases “good” y “bad” payer (pagador). Comente y justifique cual de los 3 algoritmos funcionó mejor y por qué.
+
+D) Realice una breve discusión de cómo se podría implementar dicho modelo en la práctica.
+
+ 
+
+Condiciones de entrega
+
+Puede ser realizado de manera individual o en parejas
+
+Debe entregar todos sus códigos (link a colab o notebook .ipynb)
+
+Los códigos deben venir explicados y documentados
+
+Puede hacer los supuestos que estime convenientes, pero éstos deben estar documentados
+
+ 
+
+Se debe entregar vía Canvas del curso hasta antes de la fecha que sea estipulada por el Profesor.
